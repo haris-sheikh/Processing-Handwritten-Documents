@@ -8,6 +8,13 @@ this was obtained from [this Github repo](https://github.com/sueiras/handwrittin
 
 To then run our code, insert the EAST model into the models folder, and the training data into the data folder. You will also need to set the project_dir variable to the directory of your project.
 
+## Using the code
+Open the python notebook and run the relevant cells in order. This was built on both Google Colab and on our personal computers, so there are cells that do not need to be run (and there will be errors if you run incompatible cells). Make sure you edit the second cell and update the project directory to point to where this repository is downloaded. 
+
+If you would like to train the models yourself, you can download the character dataset. Then you need to copy the characters specified in the 'char_valid_targets' 'math_valid_targets' variables from the dataset in their respective folders ('alphabet_most' and 'math_symbols'). 
+
+If you just want to run the pre-trained models, you can just run the cells, but the ones concerned with training and validating will fail. Just skip these.
+
 ## References
 ### EAST Text Detection Model:
 [EAST: An Efficient and Accurate Scene Text Detector](https://arxiv.org/abs/1704.03155v2)  
